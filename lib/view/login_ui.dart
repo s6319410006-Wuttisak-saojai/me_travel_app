@@ -16,13 +16,13 @@ class _LoginUIState extends State<LoginUI> {
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
       ),
-      body: SingleChildScrollView(
-        child: Center(
+      body: Center(
+        child: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(
-                height: MediaQuery.of(context).size.width * 0.1,
-              ),
+              //SizedBox(
+              //height: MediaQuery.of(context).size.width * 0.1,
+              //),
               Image.asset(
                 'assets/images/logo.png',
                 width: MediaQuery.of(context).size.width * 0.7,
